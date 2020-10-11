@@ -1,3 +1,7 @@
+html{
+  color: white;
+}
+
 .site-hero {
   background-image: url(./assets/me-gray.png);
 }
@@ -6,16 +10,63 @@
   padding-top: 20rem;
 }
 
-.resume-container {
-  display: grid;
-  margin: 0 auto;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 10px
+@media (min-width: 1078px) {
+  .resume-container {
+    width: 95%;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px
+    
+  }
+  .resume-item {
+    display: grid;
+    grid-template-rows: 1fr 45px;
+    height: 240px
+  }
+}
+
+
+@media only screen and (max-width: 1077px) {
+  .resume-container {
+    width: 90%;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px
+    
+  }
+  .resume-item {
+    display: grid;
+    grid-template-rows: 1fr 45px;
+    height: 270px
+  }
+}
+
+@media only screen and (max-width:480px) {
+  .resume-container {
+    width: 90vw;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px
+    
+  }
+  .resume-item {
+    display: grid;
+    grid-template-rows: 1fr 45px;
+    height: 180px
+  }
+
+}
+
+.resume-item h3 {
+  padding-top: 7px;
 }
 
 .skill-logo {
-  margin: 0 auto;
-  height: 150px;
+  margin: auto;
+  width: 70%;
   text-align: center;
 }
 
@@ -23,4 +74,12 @@
   color: #fff;
   background-color: #bac964;
   border-color: #bac964;
+}
+
+.site-form textarea:focus, .site-form input:focus {
+  color: white;
+}
+
+.site-navbar.bg-light {
+  top: 0px;
 }

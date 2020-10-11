@@ -1,8 +1,8 @@
 import React from 'react';
 import p1 from '../assets/Screen Shot 2020-10-05 at 2.51.21 AM.png'
-import p2 from '../images/p2.jpg'
-import p3 from '../images/p3.jpg'
-import p4 from '../images/p4.jpg'
+import p2 from '../assets/Screen Shot 2020-10-11 at 12.17.30 AM.png'
+import p3 from '../assets/Screen Shot 2020-10-11 at 12.29.28 AM.png'
+import p4 from '../assets/screen-shot.png'
 
 const Projects = () => {
     return (
@@ -17,50 +17,50 @@ const Projects = () => {
                     <div className="row grid">
                         <div className="single-portfolio col-md-6 all mockup">
                             <div className="relative">
-                                <a href="images/p1.jpg" className="thumb">
+                                <a href="https://qquizzyy.herokuapp.com/" target="_blank" className="thumb">
                                     <div className="overlay overlay-bg"></div>
                                     <img className="image img-fluid" src={p1} alt=""/>
                                 </a>                            
                             </div>
                             <div className="p-inner">
-                                <h4>Quizzy - a live quizzing app</h4>
+                                <h4>Quizzy - Live Quizzing Application</h4>
                                 <div className="cat">MongoDB, Express.js, React.js, Node.js, Socket.io</div>
                             </div>                                         
                         </div>
                         <div className="single-portfolio col-md-6 all mockup">
                             <div className="relative">
-                                <a href="#" className="thumb">
+                                <a href="http://uphoria.herokuapp.com/" target="_blank" className="thumb">
                                     <div className="overlay overlay-bg"></div>
-                                    <img className="image img-fluid" src={p2} alt=""/>
+                                    <img className="image img-fluid" src={p2} alt="" style={{width: '35%', margin: '0 auto'}}/>
                                 </a>                                 
                             </div>
                             <div className="p-inner">
-                                <h4>Product Box Package Mockup</h4>
-                                <div className="cat">Mockup</div>
+                                <h4>Uphoria - Video Sharing Platform</h4>
+                                <div className="cat">GraphQl, Apollo Client, React.js (Mobile Version Only)</div>
                             </div>                                         
                         </div>                            
                         <div className="single-portfolio col-md-6 all packaging">
-                            <a href="#" className="relative">
+                            <a href="https://cheap-flight-search.herokuapp.com/" target="_blank" className="relative">
                                 <div className="thumb">
                                     <div className="overlay overlay-bg"></div>
                                     <img className="image img-fluid" src={p3} alt=""/>
                                 </div>
                             </a>
                             <div className="p-inner">
-                                <h4>Creative Package Design</h4>
-                                <div className="cat">Packaging</div>
+                                <h4 style={{paddingTop: '15px'}}>Cheap Flight Search </h4>
+                                <div className="cat">Node.js, Express.js, PostgreSQL</div>
                             </div>
                         </div>
                         <div className="single-portfolio col-md-6 all packaging">
                             <div className="relative">
-                                <a href="#" className="thumb">
+                                <a href="https://subrataroy321.github.io/LUDO/" target="_blank" className="thumb">
                                     <div className="overlay overlay-bg"></div>
                                     <img className="image img-fluid" src={p4} alt=""/>
                                 </a>
                             </div> 
                             <div className="p-inner">
-                                <h4>Packaging Brand</h4>
-                                <div className="cat">Packaging</div>
+                                <h4>LUDO - Board Game</h4>
+                                <div className="cat">HTML, CSS, JAVASCRIPT</div>
                             </div>
                         </div>
                     </div>

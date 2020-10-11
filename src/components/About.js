@@ -14,7 +14,7 @@ const About = () => {
                             <div className="section-heading">
                                 <h2>About <strong>Me</strong></h2>
                             </div>
-                            <p className="lead">I am a creative-minded, solutions-driven full-stack software developer and passionate about building new ideas, bringing solutions to real life, I can build a front-end website to back-end database. I have the learnability to explore new and I am motivated by the feedback of team mates.</p>
+                            <p className="lead" style={{color: 'white'}}>I am a creative-minded, solutions-driven full-stack software developer and passionate about building new ideas, bringing solutions to real life, I can build a front-end website to back-end database. I have the learnability to explore new and I am motivated by the feedback of team mates.</p>
                             <p>
                                 <a href="#section-contact" className="btn btn-primary px-4 py-2 btn-sm smoothscroll">Hire Me</a>
                                 <span> </span>

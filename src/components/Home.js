@@ -8,7 +8,7 @@ const Home = () => {
                     <div className="row intro-text align-items-center justify-content-center">
                         <div className="col-md-10 text-center pt-7">
                             <h1 className="site-heading site-animate">Hello, I'm <strong className="d-block">Subrata Roy</strong></h1>
-                            <strong className="d-block text-white text-uppercase letter-spacing">A Full Stack Developer</strong>
+                            <strong className="d-block text-white text-uppercase letter-spacing" style={{color: 'white'}}>A Full Stack Developer</strong>
 
                         </div>
                     </div>
