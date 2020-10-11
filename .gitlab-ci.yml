@@ -1,4 +1,4 @@
-image: node:latest
+image: rambabusaravanan/firebase
 
 stages:
   - build
@@ -7,7 +7,6 @@ stages:
 build:
   stage: build
   script:
-    - npm cache clean --force
     - npm install
     - npm run build
 
