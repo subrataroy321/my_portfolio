@@ -53,12 +53,12 @@ const Navbar = () => {
                                 Contact
                             </a>
                         </li>
-                        <li>
+                        {/* <li>
                             <label class="switch">
                             <input type="checkbox" checked/>
                             <span class="slider round"></span>
                             </label>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
             </div>
