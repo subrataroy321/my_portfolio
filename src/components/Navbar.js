@@ -7,7 +7,7 @@ const Navbar = () => {
             id="pb-navbar"
             style={{position: 'fixed'}}
         >
-            <div className="container" style={{background: '#59585875'}}>
+            <div className="container nav-container">
                 <button
                     className="navbar-toggler"
                     type="button"
